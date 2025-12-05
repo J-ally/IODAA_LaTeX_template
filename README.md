@@ -33,6 +33,26 @@ The following recipe can be used to compile the document from the command line:
   ]
 ```
 
+
+### Using Overleaf
+If you are working on Overleaf, change the compiler:
+
+1. Open the **Menu** (top-left corner).
+2. Scroll to the **Compiler** section.
+3. Select **XeLaTeX**.
+4. Recompile your document.
+
+This ensures compatibility with `fontspec` and Unicode fonts.
+
+---
+
+###  Using Crixet
+If you are compiling your project with Crixet, you must tell the editor to use XeLaTeX by adding the following line at the very top of your `main.tex` file:
+
+```tex
+% !TEX program = xelatex
+```
+
 ## Contribution
 
 Please don't hesite to open issues or pull requests if you have suggestions for improvements or if you find any bugs !
