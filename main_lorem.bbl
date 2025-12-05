@@ -1,0 +1,13 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
+
+\bibitem[Li \emph{et~al.}, 2018]{li_indoor_2018}
+\bgroup\fonteauteurs\bgroup Li\egroup\egroup{}, G., \bgroup\fonteauteurs\bgroup Geng\egroup\egroup{}, E., \bgroup\fonteauteurs\bgroup Ye\egroup\egroup{}, Z., \bgroup\fonteauteurs\bgroup Xu\egroup\egroup{}, Y., \bgroup\fonteauteurs\bgroup Lin\egroup\egroup{}, J. et \bgroup\fonteauteurs\bgroup Pang\egroup\egroup{}, Y. (2018).
+\newblock Indoor {Positioning} {Algorithm} {Based} on the {Improved} { RSSI} {Distance} {Model}.
+\newblock {\em Sensors}, 18(9)\string:\penalty500\relax 2820.
+
+\end{thebibliography}

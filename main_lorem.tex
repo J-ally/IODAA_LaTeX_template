@@ -1,0 +1,101 @@
+\documentclass{rapportPFR}
+\usepackage{lipsum}
+\usepackage{standalone}
+
+\title{Rapport PFR IODAA - Template} %Titre du fichier
+
+\begin{document}
+
+%----------- Informations du rapport ---------
+
+\titre{Lorem Ipsum Dolor Sit} %Titre du fichier .pdf
+\UE{PROJET FIL ROUGE} %Nom de la UE
+% \sujet{RAPPORT FINAL} %Nom du sujet
+
+\enseignant{Joseph \textsc{Allyndrée} \\
+    Antoine \textsc{Cornuéjols} \\
+    Christine \textsc{Martin}
+} %Noms de l'enseignant
+
+\eleves{Prenom1 \textsc{Nom1} \\
+    Prenom2 \textsc{Nom2} \\
+} %Noms des élèves
+
+
+%----------- Initialisation -------------------
+
+\fairemarges %Afficher les marges
+
+\fairepagedegarde %Créer la page de garde
+
+\pagebreak
+
+\begin{titlepage}
+    \vfill
+    \begin{center}
+        \begin{abstract}
+            \lipsum[1]
+        \end{abstract}
+    \end{center}
+    \vfill
+\end{titlepage}
+
+\pagebreak
+
+\tabledematieres %Créer la table de matières
+
+%------------ Corps du rapport ----------------
+
+\section{Lorem Ipsum Dolor}
+
+\lipsum[2-3]  \cite{li_indoor_2018}
+
+\section{Consectetur Adipiscing}
+
+\subsection{Sed Do Eiusmod}
+\lipsum[4-5]
+
+\begin{table}[!ht]
+    \center
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Lorem \\ Ipsum\end{tabular}}}            &
+        \multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Dolor \\ Sit\end{tabular}}}              &
+        \textbf{Amet}                                                                                    &
+        \multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Consectetur \\ Adipiscing\end{tabular}}} &
+        \multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Elit \\ Sed\end{tabular}}}                                               \\
+        \hline Lorem                                                                                     & 11 & Ipsum  & 22 & Do         \\
+        \hline Eiusmod                                                                                   & 43 & Tempor & 29 & Incididunt \\
+        \hline Labore                                                                                    & 46 & Dolore & 14 & Magna      \\
+        \hline
+    \end{tabular}
+    \caption{Lorem ipsum dolor sit amet}
+    \label{lorem_table}
+\end{table}
+
+\lipsum[6]
+
+\begin{itemize}
+
+    \item \textbf{lorem\_ipsum} \textit{str} : Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    \item \textbf{dolor\_sit} \textit{str} : Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    \item \textbf{amet} \textit{int} : Ut enim ad minim veniam.
+    \item \textbf{consectetur} \textit{float} : Quis nostrud exercitation ullamco laboris.
+    \item \textbf{adipiscing} \textit{datetime} : Nisi ut aliquip ex ea commodo consequat.
+
+\end{itemize}
+
+\textbf{\textit{NB}} : \lipsum[7]
+
+\newpage
+\section{Annexes}
+
+\FloatBarrier
+\lipsum[8]
+\include{annexe_blavet_analyse_desc}
+
+\pagebreak
+\bibliographystyle{apalike-fr}
+\bibliography{biblio}
+
+\end{document}
