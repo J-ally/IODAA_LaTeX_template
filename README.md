@@ -33,4 +33,6 @@ The following recipe can be used to compile the document from the command line:
   ]
 ```
 
+## Contribution
 
+Please don't hesite to open issues or pull requests if you have suggestions for improvements or if you find any bugs !
