@@ -1,6 +1,6 @@
 # IODAA_LaTeX_template
 
-Here is a sample LaTeX template for the IODAA masters to use if they wish to. It was designed by [Timothée Sanchez](https://github.com/Tikings) (??) in 2025 and lightly modified by me for a more general and better ease of use.
+Here is a sample LaTeX template for the IODAA masters to use if they wish to. It was mainly designed by [Mélodie Fleury](https://github.com/MelFleury) in 2025 and lightly modified by me for a more general and better ease of use.
 It includes a sample title page, abstract, sections, and references.
 
 Feel free to modify it as needed for your own thesis or project documentation.
