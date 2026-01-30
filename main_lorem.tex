@@ -1,6 +1,20 @@
 \documentclass{rapportPFR}
 \usepackage{lipsum}
 \usepackage{standalone}
+\usepackage{natbib}
+
+
+\setcitestyle{
+  authoryear,
+  round,
+  semicolon,
+  aysep={,},
+}
+\let\cite\citep
+
+% to cite in the text use \citet 
+% to cite in parentheses use \cite and separate multiple citations with , 
+
 
 \title{Rapport PFR IODAA - Template} %Titre du fichier
 
@@ -48,7 +62,7 @@
 
 \section{Lorem Ipsum Dolor}
 
-\lipsum[2-3]  \cite{li_indoor_2018}
+\lipsum[2-3]  \cite{li_indoor_2018} and in the text \citet{li_indoor_2018}.
 
 \section{Consectetur Adipiscing}
 
